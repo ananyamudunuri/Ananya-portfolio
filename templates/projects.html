@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1 class="page-title">Projects</h1>
+
+<section class="grid projects-grid" id="projects">
+  <!-- Cards are injected by static/main.js from /static/projects.json -->
+</section>
+
+<!-- Research Papers -->
+<section class="prose" style="margin-top:22px">
+  <h1 class="page-title">Research Papers</h1>
+
+  <div class="cards three">
+    <!-- 1st paper -->
+    <article class="card hue-2">
+      <h3>Proceedings of 3rd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications (ICMISC 2022)</h3>
+      <p class="muted">Book proceedings entry.</p>
+      <p><a href="https://www.google.com/books/edition/%20Proceedings_of_3rd_International_Confere/XBSwEAAAQBAJ?hl=en&gbpv=1&pg=PA99&printsec=frontcover"
+            target="_blank" rel="noreferrer">Read</a></p>
+    </article>
+
+    <!-- 2nd paper -->
+    <article class="card hue-4">
+      <h3>Technoarete Transactions on Advances in Data Science and Analytics</h3>
+      <p class="muted">Journal source listing (OpenAlex).</p>
+      <p><a href="https://openalex.org/sources/S4387284378"
+            target="_blank" rel="noreferrer">Read</a></p>
+    </article>
+
+    <!-- 3rd paper (keep this last) -->
+    <article class="card hue-3">
+      <h3>Use of Big Data in the Process of Customer Segmentation in the Retail Sector</h3>
+      <p class="muted">Article PDF / record (ResearchGate).</p>
+      <p><a href="https://www.researchgate.net/publication/369730646_Use_of_Big_Data_in_the_Process_of_Customer_Segmentation_in_the_Retail_Sector"
+            target="_blank" rel="noreferrer">Read</a></p>
+    </article>
+  </div>
+</section>
+
+{% endblock %}
