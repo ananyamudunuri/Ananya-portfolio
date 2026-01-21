@@ -16,14 +16,6 @@
       ]
     },
     {
-      "title": "ComicGen – AI Comic Strip Generator",
-      "summary": "Multimodal AI-powered tool for generating comic strips using GPT-4, LoRA, BERT, and Stable Diffusion. Improved quality consistency by ~30% and automated creative workflows.",
-      "tags": ["Python", "PyTorch", "Stable Diffusion", "LoRA", "BERT", "RAG", "Generative AI"],
-      "links": [
-        { "href": "https://github.com/ananyamudunuri", "label": "Repos" }
-      ]
-    },
-    {
       "title": "Rain-drops Simulation",
       "summary": "Python game built with Pygame + Pymunk: catch raindrops with realistic gravity/bounce, rain-sound background, slider to adjust rain speed, splash effects, and interactive controls.",
       "tags": ["Python", "Pygame", "Pymunk", "Game Dev"],
@@ -70,6 +62,14 @@
       "tags": ["Python", "Data Analysis", "Predictive Modeling", "Public Safety", "EDA"],
       "links": [
         { "href": "https://github.com/ananyamudunuri/SF-Fire-Alarm-Analysis/blob/main/Team%2011_Technical_Rreport.pdf", "label": "Report" }
+      ]
+    },
+    {
+      "title": "ComicGen – AI Comic Strip Generator",
+      "summary": "Multimodal AI-powered tool for generating comic strips using GPT-4, LoRA, BERT, and Stable Diffusion. Improved quality consistency by ~30% and automated creative workflows.",
+      "tags": ["Python", "PyTorch", "Stable Diffusion", "LoRA", "BERT", "RAG", "Generative AI"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri", "label": "Repos" }
       ]
     }
   ]
